@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: 560vh;
 
 }
 
@@ -306,7 +307,7 @@ color: white;
     
     .boxOneHome{
 
-        width: 120px;
+        width: 150px;
         border: 1px solid transparent;
         padding: 15px;
         border-radius: 5px;
@@ -361,4 +362,9 @@ color: white;
         display: flex;
         gap: 10vw;
     }
+
+    .boxInfo h2 {
+        text-align: center;
+
+    } 
 }
