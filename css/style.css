@@ -20,7 +20,9 @@ header {
 .headerSectionOne {
     background-color: #2D2D33;
     height: 35px;
-    padding-right: 30px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
