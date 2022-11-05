@@ -404,6 +404,28 @@ padding-left: 50px;
 
 
 
+@media screen and (max-width: 1200px){
+    .headerSectionTwo{
+        flex-direction: column;
+    }
+    .headerMiddle input {
+        margin: 10px 0px;
+    }
+    
+    .headerLogo {
+        margin-top: 20px;
+    }
+
+    .headerRight {
+        margin-bottom: 20px;
+    }
+
+    .marcas {
+        padding: 10px 0px;
+    }
+}
+
+
 @media screen and (max-width: 1000px){
 
     .navHome {
@@ -412,10 +434,7 @@ padding-left: 50px;
         padding: 10px 0px 10px 0px;
     }
 
-    .headerMiddle input {
-        width: 250px;
-        margin: 10px 0px;
-    }
+
 
     .firstList {
         display: flex;
@@ -508,6 +527,19 @@ padding-left: 50px;
     } 
 
 
+}
+
+
+@media screen and (max-width: 620px){
+    .headerSectionTwo{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .headerMiddle input{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 450px){
