@@ -1,0 +1,23 @@
+.navHome {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4vw;
+    a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .navHome {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px 10px 0px;
+    }
+
+}
