@@ -1,0 +1,55 @@
+.footerContent{
+    flex-wrap: wrap;
+    background-color: map-get($paleta-de-colores, gris-oscuro );
+    border-top: 2px solid white;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footerLeft{
+        display: flex;
+        flex-direction: column;
+    }
+
+        
+    .footerLeft {
+        p {
+            color: white;
+            }
+        }
+
+
+    .footerMiddle {
+        button{
+            padding: 8px;
+        border-radius: 5px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        /*@include btn(green,black, all 1s); */
+            }   
+        }    
+
+        .footerMiddle{
+            button:hover{
+                background-color: map-get($paleta-de-colores, gris-claro );
+                padding: 13px;
+                font-size: 18px;
+                transition: all 1s;
+                border: 1px solid red;
+            }
+        }
+    
+    .footerRight{
+        color: white;
+        text-align: center;
+        }      
+
+    .socialNetwork {
+        img { 
+            width: 50px;
+            height: 50px;
+            }    
+        }
+}

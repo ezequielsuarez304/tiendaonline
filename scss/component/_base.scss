@@ -8,6 +8,101 @@
 }
 
 
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    border: 1px solid transparent;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.headerSectionOne {
+    background-color: map-get($paleta-de-colores, gris-oscuro );
+    height: 35px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    a { 
+        color: white;
+        text-decoration: none;
+        /*@extend .subrayado; */
+        display: flex;
+    }
+
+    a:hover{
+        color: red;
+        transition: all 1s;
+    }
+}
+
+.headerSectionTwo {
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px 70px;
+    justify-content: space-between;
+    background: #37373f;
+    flex-wrap: wrap;
+
+    .headerLogo {
+        a {
+            display: flex;
+            justify-content: center;
+                img {
+                width: 40%;
+                }   
+        }   
+    }
+    .headerMiddle input{
+        width: 480px;
+        height: 44px;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+    
+    .headerRight {
+        display: flex;
+        gap: 5vh;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.centroDeAyuda {
+    background-color: map-get($paleta-de-colores, gris-oscuro );
+    height: 35px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content:end;
+    a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 

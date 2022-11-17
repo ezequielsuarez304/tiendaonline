@@ -1,0 +1,96 @@
+.sectionOneHome {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 0px 20px;
+    .firstH {
+        h2{
+            margin: 21px 0px 30px;
+        }
+    }
+    .boxInfo h2 {
+        margin: 55px 0px 35px;
+    }
+    .firstList {
+            gap: 3vw;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background-color: map-get($paleta-de-colores, gris-claro );
+            border-radius: 10px;
+            padding: 10px;
+            flex-wrap: wrap;
+        .boxOneHome{
+            @include card();
+            }
+        .infoboxOne{ 
+            a:first-child{
+                font-weight:bolder;
+                font-size: 1.2rem;
+            }
+        }
+        .infoboxOne {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .infoboxOne {
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight:600;
+            }      
+        }   
+        }
+        
+    }
+
+.sectionTwo {
+    background-color: map-get($paleta-de-colores, gris-oscuro );
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+
+    .infoSectionTwo {
+    padding: 30px 0px;
+    }   
+    .infoSectionTwo h2{
+        color: white;
+        text-align: center;
+    }
+    .imgSectionTwo  {
+        display: flex;
+        margin: 0px 67px;
+    }
+    .imgSectionTwo a {
+        font-weight: bold;
+    }
+    .products{
+        a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .imgSectionTwo div img { /* aca como seria? */
+    width: 100%;
+    }
+
+    .imgMiddle {
+        img{
+        width: 100%;
+        }
+        }
+        
+    .marcas {
+        background-color: map-get($paleta-de-colores, gris );
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+
+        }
+}
