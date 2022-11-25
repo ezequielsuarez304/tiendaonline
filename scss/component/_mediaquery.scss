@@ -146,7 +146,7 @@
         .headerSectionTwo{
             .headerMiddle {
                 input{
-                    width: 300px;
+                    width: 310px;
                 }
             }
         }
@@ -157,6 +157,10 @@
                 width: 160px;
                 }
             }
+        }
+
+        .headerSectionTwo .headerRight .btnLogIn{
+            width: 190px;
         }
 }
 

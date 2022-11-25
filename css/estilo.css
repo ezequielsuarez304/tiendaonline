@@ -15,7 +15,7 @@
   text-decoration: underline white; }
 
 .btnLogIn {
-  width: 180px;
+  width: 200px;
   padding: 7px;
   background-color: transparent;
   border: 2px solid #222227;
@@ -652,9 +652,11 @@
 
 @media screen and (max-width: 520px) {
   .headerSectionTwo .headerMiddle input {
-    width: 300px; }
+    width: 310px; }
   .sectionOneHome .firstList .boxOneHome {
-    width: 160px; } }
+    width: 160px; }
+  .headerSectionTwo .headerRight .btnLogIn {
+    width: 190px; } }
 
 @media screen and (max-width: 450px) {
   .sectionOneHome .firstList .boxOneHome img {
