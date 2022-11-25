@@ -656,7 +656,9 @@
   .sectionOneHome .firstList .boxOneHome {
     width: 160px; }
   .headerSectionTwo .headerRight .btnLogIn {
-    width: 190px; } }
+    width: 190px; }
+  .headerSectionTwo .headerRight {
+    gap: 3vh; } }
 
 @media screen and (max-width: 450px) {
   .sectionOneHome .firstList .boxOneHome img {

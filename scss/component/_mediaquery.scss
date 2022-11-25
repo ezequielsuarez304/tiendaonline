@@ -162,6 +162,9 @@
         .headerSectionTwo .headerRight .btnLogIn{
             width: 190px;
         }
+        .headerSectionTwo .headerRight{
+                    gap: 3vh;
+        }
 }
 
 @media screen and (max-width: 450px){
