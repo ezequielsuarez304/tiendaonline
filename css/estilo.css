@@ -658,7 +658,7 @@
   .headerSectionTwo .headerRight .btnLogIn {
     width: 190px; }
   .headerSectionTwo .headerRight {
-    gap: 4vh; } }
+    gap: 3vh; } }
 
 @media screen and (max-width: 450px) {
   .sectionOneHome .firstList .boxOneHome img {
