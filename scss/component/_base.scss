@@ -7,6 +7,16 @@
     color: white;
 }
 
+.btnLogIn:hover {
+    background-color: map-get($paleta-de-colores, gris-claro );
+    padding: 9px;
+    font-size: 15px;
+    transition: all 1s;
+    border: 1px solid red;
+}
+
+
+
 
 @mixin card {
     display: flex;

@@ -22,6 +22,13 @@
   border-radius: 5px;
   color: white; }
 
+.btnLogIn:hover {
+  background-color: #343636;
+  padding: 9px;
+  font-size: 15px;
+  transition: all 1s;
+  border: 1px solid red; }
+
 .headerSectionOne {
   background-color: #2D2D33;
   height: 35px;
